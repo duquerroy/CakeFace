@@ -18,6 +18,10 @@ class User extends Entity
     protected $_accessible = [
         'email' => true,
         'password' => true,
+        'facebook_id' => true,
+        'first_name' => true,
+        'last_name' => true,
+        'username' => true,
     ];
 
      protected function _setPassword($value)

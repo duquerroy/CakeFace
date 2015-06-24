@@ -34,6 +34,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->fetch('script') ?>
 </head>
 <body>
+<?php echo $this->Facebook->initJsSDK(); ?>
     <header>
         <div class="header-title">
             <span><?= $this->fetch('title') ?></span>
